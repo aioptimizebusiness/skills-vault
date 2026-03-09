@@ -1,0 +1,50 @@
+name: Validate Skills Registry
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate registry.json exists
+        run: test -f registry.json && echo "✅ registry.json found"
+
+      - name: Validate registry.json is valid JSON
+        run: python3 -c "import json; json.load(open('registry.json'))" && echo "✅ Valid JSON"
+
+      - name: Check all registered skills have SKILL.md
+        run: |
+          python3 - <<'EOF'
+          import json, os, sys
+          registry = json.load(open('registry.json'))
+          errors = []
+          for skill in registry['skills']:
+              path = skill['path']
+              if not os.path.exists(path):
+                  errors.append(f"❌ Missing: {path}")
+          if errors:
+              print('\n'.join(errors))
+              sys.exit(1)
+          else:
+              print(f"✅ All {len(registry['skills'])} skills validated")
+          EOF
+
+      - name: Update totalSkills count check
+        run: |
+          python3 - <<'EOF'
+          import json, sys
+          registry = json.load(open('registry.json'))
+          actual = len(registry['skills'])
+          declared = registry.get('totalSkills', 0)
+          if actual != declared:
+              print(f"❌ totalSkills is {declared} but registry has {actual} skills. Please update totalSkills.")
+              sys.exit(1)
+          else:
+              print(f"✅ totalSkills matches: {actual}")
+          EOF
