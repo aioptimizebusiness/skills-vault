@@ -140,6 +140,54 @@ process. Every month we send a performance report to each client. Steps roughly 
 collect data from Meta and Google ads → prepare slides → review with founder → send to client.
 
 ### Output
-[Full SOP document following the format above, with specific rows for:
-Meta Ads Manager export → Google Ads export → slide preparation → founder review →
-approval → WhatsApp/email dispatch → client acknowledgement tracking]
+Monthly Client Performance Report — Standard Operating Procedure
+SOP ID: DMA-SOP-001 | Version: 1.0 | Effective Date: March 2026
+Owner: Account Manager | Approved By: Founder | Review Date: March 2027
+
+1. Purpose
+This SOP ensures that every client receives an accurate, consistent, and professionally
+formatted monthly performance report by the 5th of each month. It prevents missed
+reports, data errors, and inconsistent formatting across the team.
+
+2. Scope
+Applies to: Account Managers, Founder (review only), Admin Staff
+Out of scope: Creation of new campaign strategies or budget recommendations —
+this SOP covers reporting only, not campaign decisions.
+Prerequisites: All client ad accounts must have the agency's reporting access
+active. Google and Meta API connections must be live before the reporting window opens.
+
+3. Procedure
+Step	Action	Responsible	Tool/System	Output
+1	On the 1st of each month, pull the previous month's performance data from Meta Ads Manager for each client	Account Manager	Meta Ads Manager → Export as CSV	Meta data CSV per client
+2	Pull the previous month's data from Google Ads for each client	Account Manager	Google Ads → Reports → Export	Google Ads CSV per client
+3	Open the monthly report slide template from Google Drive and create a copy named [ClientName]_[Month]_[Year]_Report	Account Manager	Google Slides	New slide deck per client
+4	Input Meta and Google data into the slide deck; update all charts, numbers, and comparison figures vs. previous month	Account Manager	Google Slides	Draft report deck
+5	Add a 3-bullet "Key Observations" section on Slide 2 summarising the most important trend for the client this month	Account Manager	Google Slides	Draft ready for review
+6	Share the draft Google Slides link with the Founder via WhatsApp with message: "Report ready for review — [ClientName]"	Account Manager	WhatsApp	Founder notified
+7	Founder reviews for accuracy and brand tone; comments added directly in Google Slides	Founder	Google Slides	Reviewed draft
+8	Account Manager addresses all comments and marks deck as "Final"	Account Manager	Google Slides	Final approved deck
+9	Export the final deck as PDF and send to the client via email with the subject line: "[ClientName] — Monthly Performance Report — [Month Year]"	Account Manager	Gmail	Report delivered to client
+10	Log the send date and client acknowledgement in the Client Tracker sheet	Admin Staff	Google Sheets	Tracker updated
+4. Quality Checks
+Before Step 6: Verify that all month-over-month percentage changes are calculated
+correctly — double-check at least 3 figures manually before sending for review.
+
+Before Step 9: Confirm the PDF export is complete (all slides visible, no blank pages).
+
+By 5th of each month: If any report has not been sent, escalate to Founder immediately.
+
+5. Exception Handling
+Exception	Action
+Meta or Google data is unavailable due to access error	Notify Founder immediately; send a provisional report with available data and note which platform data is pending
+Client requests changes after report is sent	Create a v2 of the slide deck; do not edit the original; send v2 with subject line "Revised — [original subject]"
+Founder is unavailable for review by 3rd of the month	Account Manager is authorised to send the report directly after self-review; inform Founder same day
+Escalation: Contact Founder if any report cannot be sent by the 5th of the month.
+
+6. Related Documents
+Monthly Report Slide Template (Google Drive: /Templates/Monthly_Report_Master.pptx)
+
+Client Tracker Sheet (Google Drive: /Operations/Client_Tracker_FY26.xlsx)
+
+None others at this time — update as library grows.
+
+Document version history maintained by Account Manager. Next review: March 2027.

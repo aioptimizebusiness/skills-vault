@@ -147,4 +147,79 @@ Open Questions
 Project: Redesign the sales presentation to match the new branding guidelines. Client is our internal Sales Director. Needs to be done in 3 weeks before the next trade show.
 
 ### Output
-[Full project brief output matching the prescribed Output format structure, covering the redesign scope explicitly stating what's in (slide master, key graphics redesign) and what's out (copywriting).]
+Project Brief: Sales Presentation Rebrand
+Client/Stakeholder: Rohit Sharma, Sales Director | Date: March 2026 | Version: 1.0
+Project Manager: Marketing Team Lead | Status: Draft
+
+Executive Summary
+This project will redesign the company's core sales presentation deck to align with the
+new brand guidelines launched in February 2026. The updated deck must be ready before the
+India Manufacturing Expo on 28 March 2026, where it will be the primary tool used by the
+sales team across all client meetings at the event.
+
+Objectives
+Deliver a fully redesigned 20-slide sales deck aligned with the new brand guidelines
+by 25 March 2026 (3 days before the trade show).
+
+Reduce slide design inconsistencies from the current 14 identified mismatches to zero
+across all slides.
+
+Ensure the deck is editable by non-designers — final file delivered in PowerPoint
+format with locked master slides and editable content zones.
+
+Scope
+In Scope:
+
+Redesign of all 20 existing slides using the new slide master and brand colours
+
+Replacement of all old logos, fonts (switching from Arial to Poppins), and colour codes
+
+Redesign of 6 key data charts to match new brand chart style
+
+Final file in .pptx format with a locked master slide
+
+Out of Scope:
+
+Rewriting or editing any slide copy or messaging (content stays as-is)
+
+Creating new slides or adding new sections
+
+Video or animation elements
+
+Printing or physical production
+
+Deliverables & Timeline
+Milestone	Deliverable	Due Date	Owner
+Kickoff	Brand guidelines shared + slide audit completed	Week 1, Day 1	Sales Director
+Draft v1	First 10 slides redesigned — ready for review	Week 1, Day 4	Marketing Team Lead
+Draft v2	All 20 slides redesigned — ready for review	Week 2, Day 2	Marketing Team Lead
+Final	Approved .pptx with locked master + PDF export	Week 2, Day 4	Marketing Team Lead
+Resources & Budget
+Marketing Team Lead: 60% time allocation for 2 weeks
+
+Design tool: Canva Pro (existing licence) — ₹0 additional cost
+
+Font licence: Poppins — free via Google Fonts
+
+Budget: ₹0 (internal resource only)
+
+Assumptions
+The new brand guidelines document (colours, fonts, logo files) will be shared by the
+Sales Director by Day 1 of the project.
+
+Slide content (text and data) will not change during the project — all copy is final.
+
+A maximum of 2 rounds of revision feedback will be provided within 24 hours each.
+
+The final deck will be used on Windows laptops — no Mac-specific font compatibility
+issues are anticipated.
+
+Risks
+Risk	Likelihood	Impact	Mitigation
+Brand guidelines shared late	Medium	High	Escalate to Sales Director on Day 1 if not received by 10 AM
+Scope creep via new slide requests	High	Medium	Anything beyond 20 slides is a separate project; document and defer
+Revision cycles exceed 2 rounds	Low	Medium	Flag at round 2 that additional rounds will push past the trade show deadline
+Open Questions
+Will the deck need a dark-background version for on-screen presentations, or light only?
+
+Are the 6 data charts to be rebuilt from scratch in PowerPoint, or exported from Excel?

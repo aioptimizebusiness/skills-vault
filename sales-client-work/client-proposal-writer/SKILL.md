@@ -137,4 +137,73 @@ This proposal is valid for 15 days from [date].
 Client is a fast fashion ecommerce startup. They have a problem with 30% cart abandonment due to confusing shipping rates mapping to different zones. We are a Shopify development agency. We will rewrite their checkout logic and integrate Delhivery APIs clearly. Timeline 3 weeks. Cost 60,000 INR.
 
 ### Output
-[Full formatted proposal demonstrating empathy for the cart abandonment problem before presenting the 60,000 INR investment structure, and clearly defining the payment milestones based on the 3-week timeline.]
+Proposal: Checkout Optimisation & Delhivery API Integration
+Prepared for: TrendKart (Fast Fashion E-Commerce) | Prepared by: DevStream Solutions
+Date: March 2026 | Valid until: 24 March 2026
+
+Executive Summary
+TrendKart is currently losing approximately 30% of checkout-stage customers due to
+confusing and inconsistent shipping rate display across delivery zones — a fixable
+technical problem with a direct revenue impact. DevStream Solutions will rebuild the
+checkout shipping logic in Shopify and integrate Delhivery's API to display accurate,
+zone-specific rates in real time. Based on industry benchmarks, resolving shipping
+confusion at checkout typically recovers 8–15% of abandoned carts within 30 days of
+deployment.
+
+Understanding Your Challenge
+Your customers are reaching the checkout page, seeing unexpected or contradictory
+shipping costs, and leaving without purchasing. This is not a pricing problem — it is a
+clarity problem. When a customer in Nagpur sees a different rate than a customer in Pune
+for the same order, trust breaks down. The root cause is that your current shipping zones
+are not cleanly mapped to Delhivery's actual service areas within Shopify.
+
+Our Proposed Solution
+We will rebuild the Shopify shipping rate logic from scratch, integrating directly with
+Delhivery's Rate Calculator API so that the shipping cost displayed at checkout is always
+accurate, zone-specific, and consistent. Our approach:
+
+Audit current Shopify shipping zones and identify all mismatches with Delhivery zones
+
+Build a clean zone-mapping layer between your Shopify store and the Delhivery API
+
+Implement real-time rate fetching so the customer sees the correct charge before payment
+
+Add a "Free shipping above ₹X" threshold display to reduce abandonment further
+
+Test across 20+ pin codes across Tier 1, 2, and 3 cities before going live
+
+This approach ensures checkout shipping rates are 100% accurate across all Delhivery
+zones by end of Week 3.
+
+Deliverables & Timeline
+Phase	Deliverable	Timeline
+Phase 1 — Audit	Zone mismatch report + integration architecture	Week 1
+Phase 2 — Build	Delhivery API integration + Shopify logic rebuild	Week 2
+Phase 3 — Test & Deploy	UAT across 20 pin codes + live deployment	Week 3
+Investment
+Item	Fee
+Shopify checkout audit & zone mapping	₹15,000
+Delhivery API integration & development	₹35,000
+Testing, QA & deployment	₹10,000
+Total	₹60,000
+Payment terms: ₹30,000 on agreement signing · ₹30,000 on go-live
+Not included: Ongoing Delhivery API subscription fees, Shopify plan upgrades, or
+post-launch monitoring beyond 7 days
+
+Why DevStream Solutions
+Delivered 12+ Shopify integrations for Indian e-commerce brands in the past 24 months
+
+Certified Delhivery integration partner with direct API documentation access
+
+All development and testing done in India — no offshore delays or timezone gaps
+
+Fixed-price engagement — no surprise billing if the scope stays as defined above
+
+Next Steps
+Sign the agreement and process the advance payment
+
+30-minute kickoff call to share Shopify admin access and Delhivery account credentials
+
+Phase 1 audit begins within 24 hours of kickoff
+
+This proposal is valid for 15 days from 9 March 2026.
